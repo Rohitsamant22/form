@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <style>
+      body {
+        position:relative;
+       background-color: rgb(243, 96, 11);
+       border-top: 5px double;
+       border-bottom: 5px double;
+       padding-top: 2%;
+       padding-bottom: 2%;
+       padding-left: 10%;
+       padding-right: 10%;
+       margin: 3%;
+       line-height: 3.0;
+       word-spacing: 5px;
+    }
+
+       * {
+            font-style: serif;
+             font-weight: bold;
+          
+         }
+              
+  input[type=text], input[type=email],input[type=password] {
+  width: 40%;
+  padding:11px;
+  margin: 2px;
+  position: absolute;
+  left: 35%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+  padding: 2px ;
+  margin:1px ;
+  display: inline-block;
+  position: absolute;
+    
+}
+  </style>
+  <title>css form</title>
+</head>
+
+ <body>
+      <h1 class="center" ><ins>Create Your Account</ins></h1>
+      <form class="center">
+      
+      <label for="fname "   >Enter Name: </label>
+      <input type="text"  name="fname" id="fname" placeholder="Enter user here" ><br>
+      <label for="email_id" >Enter Email ID:</label>
+      <input type="email"  id="email_id" name="email_id" placeholder="Enter Email Id here" ><br>
+      <label for="fname" >Enter User Name:</label>
+      <input type="text"  name="fname" id="fname" placeholder="Enter user name here" ><br>
+      <label for="pwd" >Password:</label>
+      <input type="password" class=" col-75" id="pwd" name="pwd" placeholder="Enter Password here" ><br>
+      <label for="pwd" >Enter Comfrom Password:</label>
+      <input type="password" class="col-75" id="pwd" name="pwd" placeholder="Enter Password here" > <br>
+      <button style class="label" onclick="alert('done form')">click me !</button>
+    </div>  
+     </form>
+     
+</body>
+</style>
+</html>
